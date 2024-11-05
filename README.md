@@ -1,0 +1,2 @@
+# LapotaQuoteGenerator
+My new repo
