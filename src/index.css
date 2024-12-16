@@ -1,0 +1,78 @@
+body {
+  background-color: rgb(106, 193, 196);
+}
+
+.main_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 50px;
+}
+
+.heading {
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+  background-color: darkcyan;
+  color: white;
+}
+
+.buttons_holder {
+  width: fit-content;
+  border: solid 1px darkgray;
+  border-radius: 10px;
+  background-color: rgb(125, 173, 176);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 10px;
+  column-gap: 10px;
+}
+
+button {
+  background-color: rgb(77, 173, 190);
+  font-size: 15px;
+  color: white;
+  width: fit-content;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: solid 1px white;
+  padding: auto;
+}
+
+.quote_section {
+  margin-top: 20px;
+  width: 100%;
+  background-color: darkcyan;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+
+.quote_holder {
+  width: fit-content;
+  border-radius: 5px 5px 50px 50px;
+  background-color: lightgray;
+  margin: auto;
+  padding: 5px 20px;
+  text-align: center;
+}
+
+.variable_quote_holder {
+  width: fit-content;
+  border-radius: 10px;
+  background-color: rgb(138, 193, 193);
+  margin: auto 5px;
+  padding: 2px 20px;
+  line-height: 25px;
+  color: darkslategray;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 50px;
+}
+
+footer {
+  color: #273f32;
+  text-align: center;
+  font-size: 10px;
+}
