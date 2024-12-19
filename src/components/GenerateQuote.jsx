@@ -36,7 +36,7 @@ function GenerateQuote() {
                         Study them and you will find hope and joy from them.
                     </p>
                     <p style={{ color: 'darkcyan' }}>
-                        If you want to get in touch with the app developer, you can get him through the email lsmnkapota@gmail.com
+                        If you want to get in touch with me, you can contact me through the email 'lsmnkapota@gmail.com'.
                     </p>
                 </div>
             </div>
