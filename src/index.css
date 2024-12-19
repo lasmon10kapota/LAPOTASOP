@@ -10,10 +10,10 @@ body {
 }
 
 .heading {
-  border-radius: 5px 5px 0 0;
+  border-radius: 15px 15px 0 0;
   text-align: center;
   background-color: darkcyan;
-  color: white;
+  color: seashell;
 }
 
 .buttons_holder {

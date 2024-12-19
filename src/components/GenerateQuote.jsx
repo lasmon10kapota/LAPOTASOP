@@ -7,6 +7,7 @@ function GenerateQuote() {
     const [count, setCount] = React.useState(randQuoteCount);
 
     function getRandomQuote() {
+        const randQuoteCount = Math.floor(Math.random() * maxLength);
         setCount(count => randQuoteCount)
     }
     function getNextQuote() {
@@ -43,7 +44,7 @@ function GenerateQuote() {
             <div className="quote_section">
                 <hr />
                 <div className='buttons_holder'>
-                    <button onClick={getPreviousQuote}>Back</button>
+                    <button onClick={getPreviousQuote}>Prev</button>
                     <button onClick={getRandomQuote}>Get Quote</button>
                     <button onClick={getNextQuote}>Next</button>
                 </div>
