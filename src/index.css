@@ -29,7 +29,7 @@ body {
   column-gap: 10px;
 }
 
-button {
+.button_style {
   background-color: rgb(77, 173, 190);
   font-size: 15px;
   color: white;
@@ -38,7 +38,7 @@ button {
   cursor: pointer;
   border-radius: 5px;
   border: solid 1px white;
-  padding: auto;
+  text-align: center;
 }
 
 .quote_section {
