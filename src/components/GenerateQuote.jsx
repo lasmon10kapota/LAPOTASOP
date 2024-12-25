@@ -65,8 +65,8 @@ function GenerateQuote() {
             <div className="quote_section">
                 <hr />
                 <div className='buttons_holder'>
-                    <div className='button_style'>
-                        <select value={selectedCategory} onChange={handleSelectedCategory}>
+                    <div>
+                        <select className='button_style' value={selectedCategory} onChange={handleSelectedCategory}>
                             <option value="general">Choose Category</option>
                             <option value="youth">Youth</option>
                             <option value="marriage">Marriage</option>
