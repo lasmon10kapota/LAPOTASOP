@@ -1,7 +1,7 @@
 import React from 'react';
 import general from './General.json';
 import family from './Family.json';
-import jugment from './Jugment.json';
+import lastevents from './LastEvents.json';
 import marriage from './Marriage.json';
 import salvation from './Salvation.json';
 import victory from './Victory.json';
@@ -14,7 +14,7 @@ const categories = {
     family,
     salvation,
     victory,
-    jugment
+    lastevents
 };
 
 function GenerateQuote() {
@@ -73,7 +73,7 @@ function GenerateQuote() {
                             <option value="family">Family</option>
                             <option value="salvation">Salvation</option>
                             <option value="victory">Victory</option>
-                            <option value="jugment">Jugment</option>
+                            <option value="lastevents">Last Events</option>
                         </select>
                     </div>
                     <button className='button_style' onClick={getPreviousQuote}>Prev</button>
