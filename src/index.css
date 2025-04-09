@@ -71,9 +71,7 @@ body {
   font-weight: 50px;
 }
 
-.playback_btns_section {
-  margin-left: 10px;
-  margin-right: 10px;
+.playback_btns {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
