@@ -76,9 +76,9 @@ function GenerateQuote() {
                             <option value="lastevents">Last Events</option>
                         </select>
                     </div>
-                    <button className='button_style' onClick={getPreviousQuote}>Prev</button>
+
                     <button className='button_style' onClick={getRandomQuote}>Get Quote</button>
-                    <button className='button_style' onClick={getNextQuote}>Next</button>
+
                 </div>
 
                 <hr />
@@ -86,7 +86,11 @@ function GenerateQuote() {
                     <h2 style={{ textAlign: 'center', color: 'white' }}>Enjoy SOP Quotes</h2>
                     <hr />
                     <p><b>{categories[selectedCategory][count].quotation}</b></p>
-                    <h4 style={{ color: 'darkred' }}>{categories[selectedCategory][count].reference}</h4>
+                    <div className="playback_btns">
+                        <button className='button_style' onClick={getPreviousQuote}>Prev</button>
+                        <h4 style={{ color: 'darkred' }}>{categories[selectedCategory][count].reference}</h4>
+                        <button className='button_style' onClick={getNextQuote}>Next</button>
+                    </div>
                 </div>
             </div>
             <footer>

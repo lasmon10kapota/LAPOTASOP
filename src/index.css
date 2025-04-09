@@ -71,6 +71,12 @@ body {
   font-weight: 50px;
 }
 
+.playback_btns {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 footer {
   color: #273f32;
   text-align: center;
