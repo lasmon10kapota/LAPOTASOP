@@ -82,15 +82,15 @@ function GenerateQuote() {
                 </div>
 
                 <hr />
-                <div className="variable_quote_holder">
-                    <h2 style={{ textAlign: 'center', color: 'white' }}>Enjoy SOP Quotes</h2>
-                    <hr />
-                    <p><b>{categories[selectedCategory][count].quotation}</b></p>
-                    <div className="playback_btns">
-                        <button className='button_style' onClick={getPreviousQuote}>Prev</button>
+                <div className="playback_btns_section">
+                    <button className='button_style' style={{ width: 100 }} onClick={getPreviousQuote}>Prev</button>
+                    <div className="variable_quote_holder">
+                        <h2 style={{ textAlign: 'center', color: 'white' }}>Enjoy SOP Quotes</h2>
+                        <hr />
+                        <p><b>{categories[selectedCategory][count].quotation}</b></p>
                         <h4 style={{ color: 'darkred' }}>{categories[selectedCategory][count].reference}</h4>
-                        <button className='button_style' onClick={getNextQuote}>Next</button>
                     </div>
+                    <button className='button_style' style={{ width: 100 }} onClick={getNextQuote}>Next</button>
                 </div>
             </div>
             <footer>
