@@ -82,9 +82,7 @@ function GenerateQuote() {
                     <h2 style={{ textAlign: 'center', color: 'white' }}>Enjoy SOP Quotes</h2>
                     <hr />
                     <p><b>{categories[selectedCategory][count].quotation}</b></p>
-                    <div className="playback_btns">
-                        <h4 style={{ color: 'darkred' }}>{categories[selectedCategory][count].reference}</h4>
-                    </div>
+                    <h4 style={{ color: 'darkred' }}>{categories[selectedCategory][count].reference}</h4>
                 </div>
             </div>
             <footer>
