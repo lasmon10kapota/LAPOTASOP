@@ -53,12 +53,8 @@ function GenerateQuote() {
             <div className='welcome_div'>
                 <div className="quote_holder">
                     <p style={{ color: 'darkcyan' }}>
-                        Welcome to SOP quote generator! The SOP stands for Spirit of Prophecy.
-                        These are quotes that are in harmony with scriptures.
-                        Study them and you will find hope and joy from them.
-                    </p>
-                    <p style={{ color: 'darkcyan' }}>
-                        If you want to get in touch with me, you can contact me through the email 'lsmnkapota@gmail.com'.
+                        Welcome to <i><strong>SOP quote generator (Spirit of Prophecy)</strong></i>!
+                        It is scripture-based.
                     </p>
                 </div>
             </div>
