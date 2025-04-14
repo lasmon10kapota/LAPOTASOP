@@ -65,6 +65,8 @@ function GenerateQuote() {
             <div className="quote_section">
                 <hr />
                 <div className='buttons_holder'>
+                    <button className='button_style' onClick={getPreviousQuote}>Prev</button>
+                    <button className='button_style' onClick={getRandomQuote}>Get Quote</button>
                     <div>
                         <select className='button_style' value={selectedCategory} onChange={handleSelectedCategory}>
                             <option value="general">Choose Category</option>
@@ -76,8 +78,7 @@ function GenerateQuote() {
                             <option value="lastevents">Last Events</option>
                         </select>
                     </div>
-
-                    <button className='button_style' onClick={getRandomQuote}>Get Quote</button>
+                    <button className='button_style' onClick={getNextQuote}>Next</button>
 
                 </div>
 
@@ -87,9 +88,7 @@ function GenerateQuote() {
                     <hr />
                     <p><b>{categories[selectedCategory][count].quotation}</b></p>
                     <div className="playback_btns">
-                        <button className='button_style' onClick={getPreviousQuote}>Prev</button>
                         <h4 style={{ color: 'darkred' }}>{categories[selectedCategory][count].reference}</h4>
-                        <button className='button_style' onClick={getNextQuote}>Next</button>
                     </div>
                 </div>
             </div>
