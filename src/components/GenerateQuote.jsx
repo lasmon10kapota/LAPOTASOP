@@ -53,8 +53,7 @@ function GenerateQuote() {
             <div className='welcome_div'>
                 <div className="quote_holder">
                     <p style={{ color: 'darkcyan' }}>
-                        Welcome to <i><strong>SOP quote generator (Spirit of Prophecy)</strong></i>!
-                        It is scripture-based.
+                        Welcome to <i><strong>SOP quote generator (Spirit of Prophecy)</strong></i>! Scripture-based.
                     </p>
                 </div>
             </div>
